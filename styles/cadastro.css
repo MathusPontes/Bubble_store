@@ -1,0 +1,59 @@
+
+.cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastrar__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastrar__item{
+    background-color: var(--laranja);
+    border: 1px solid var(--cinza-claro);
+    text-align: center;
+    color: var(--branco);
+    border-radius: 24px;
+    width: 120%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.cadastrar__cpf::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.cadastrar__cpf{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.cadastrar__item::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+}
+
+.cadastrar__botao{
+    cursor: pointer;
+    padding: 1em 3em;
+    margin: 2em 0;
+    border: 1px solid var(--laranja);
+    border-radius: 2em;
+    background-color: var(--laranja);
+    color: var(--branco);
+}
+
+.cadastrar__botao:hover{
+    padding: 1.25em 3.25em;
+    box-shadow: 1px 1px 1px black;
+}
+
+.cadastrar__botao:target{
+    padding: 1em 3em;
+}

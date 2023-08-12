@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blubble Store</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="main.html" class="lista-menu__link">HQs</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="main.html" class="lista-menu__link">Mangás</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="main.html" class="lista-menu__link">Comunidade</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="consulta.html" class="lista-menu__link">Consultar</a>
+                </li>
+            </ul>
+            <a href="main.html" class = "container__home">
+                <img src="img/Logo.png" alt="Logo da Bubble Store" class="container__imagem" width="50" height="50">
+            </a>
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Bubble</b>Store</h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="main.html" class="lista-menu__link">HQs</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="main.html" class="lista-menu__link">Mangás</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="comunidade.html" class="lista-menu__link">Comunidade</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="consulta.html" class="lista-menu__link">Consultar</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="login.html" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="login.html" class="opcoes__link">Minha estante</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="login.html">
+                <img src="img/Favoritos.svg " alt="Meus favoritos" class="container__imagem container__imagem-transparente">
+            </a>
+            <a href="login.html" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="cadastro.html" class="container__link">
+                <img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    
+    <section class="corpo">
+        <section class="corpo__comunidade">
+            <div class="comunidade__itens">
+                <img src="img/Comunidade.png" alt="Foto da comunidade" width="200" height="200" class="corpo__comunidade__imagem">
+                <h2 class="comunidade__titulo">Black Dragons</h2>
+                <p class="comunidade__descricao">Comunidade focada no debate e desenvovilmento do cenario do esporte eletronico.</p>
+                <ul class="comunidade__botoes">
+                    <li><a href="#" class="comunidade__botoes__itens">Membros</a></li>
+                    <li><a href="#" class="comunidade__botoes__itens">Meus posts</a></li>
+                    <li><a href="#" class="comunidade__botoes__itens">Curtidas</a></li>
+                    <li><a href="#" class="comunidade__botoes__itens">Mais recentes</a></li>
+                    <li><a href="#" class="comunidade__botoes__itens">Mais curtidos</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <div class="corpo__itens">
+            <section class="corpo__post">
+                <div class="corpo__post__imagem">
+                    <p class="corpo__post__imagem__sobre">Pegunta seria agora, o que acham dele?</p>
+                    <img src="img/Faker.jpg" alt="Foto do Faker" width="500" height="400">
+                    <p class="corpo__post__imagem__data">3 dias atrás</p>
+                </div>
+                <div class="corpo__post__comentarios">
+                    <div class="post">
+                        <h2 class="corpo__post__comentarios__titulo">Comentarios</h2>
+                        <div class="corpo__post__comentarios__itens">
+                            <div class="comentario__itens">
+                                <h3 class="corpo__post__comentarios__itens__nome">@Manoel ° há 2 dias</h3>
+                                <p class="corpo__post__comentarios__itens__descricao">Acho que ele é simplesmente o melhor do mundo</p>
+                            </div>
+                            <div class="comentario__itens">
+                                <h3 class="corpo__post__comentarios__itens__nome">@Aninha ° há 30 minutos </h3>
+                                <p class="corpo__post__comentarios__itens__descricao">Meio superestimado... Existem melhores</p>
+                            </div>
+                            <div class="comentario__itens">
+                                <h3 class="corpo__post__comentarios__itens__nome">@jujuba_doce ° há 24 minutos </h3>
+                                <p class="corpo__post__comentarios__itens__descricao">Já foi muito bom, hoje nem tanto</p>
+                            </div>
+                            <div id="comments-container"></div>
+                        </div>
+                    </div>
+
+                    <div class="corpo__post__pessoal">
+                        <img src="img/Usuario.png" alt="Foto do usuário">
+                        <form action="get" id="comment-form">
+                            <textarea id="content-input" placeholder="Adicione um comentário" class="corpo__post__pessoal__comentario"></textarea>
+                            <button type="submit" class="enviar__botao">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="corpo__post">
+                <div class="corpo__post__imagem">
+                    <p class="corpo__post__imagem__sobre">Acham que a aposentadoria dele vai chegar em breve?</p>
+                    <img src="img/Fallen.jpg" alt="Foto do Faker" width="500" height="400">
+                    <p class="corpo__post__imagem__data">7 dias atrás</p>
+                </div>
+                <div class="corpo__post__comentarios">
+                    <div class="post">
+                        <h2 class="corpo__post__comentarios__titulo">Comentarios</h2>
+                        <div class="corpo__post__comentarios__itens">
+                            <div class="comentario__itens">
+                                <h3 class="corpo__post__comentarios__itens__nome">@Manoel ° há 2 dias</h3>
+                                <p class="corpo__post__comentarios__itens__descricao">Acho que ele é simplesmente o melhor do mundo</p>
+                            </div>
+                            <div class="comentario__itens">
+                                <h3 class="corpo__post__comentarios__itens__nome">@Aninha ° há 30 minutos </h3>
+                                <p class="corpo__post__comentarios__itens__descricao">Meio superestimado... Existem melhores</p>
+                            </div>
+                            <div class="comentario__itens">
+                                <h3 class="corpo__post__comentarios__itens__nome">@jujuba_doce ° há 24 minutos </h3>
+                                <p class="corpo__post__comentarios__itens__descricao">Já foi muito bom, hoje nem tanto</p>
+                            </div>
+                            <div id="comments-container"></div>
+                        </div>
+                    </div>
+
+                    <div class="corpo__post__pessoal">
+                        <img src="img/Usuario.png" alt="Foto do usuário">
+                        <form action="get" id="comment-form">
+                            <textarea id="content-input" placeholder="Adicione um comentário" class="corpo__post__pessoal__comentario"></textarea>
+                            <button type="submit" class="enviar__botao">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </section>
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Bubble Store</h2>
+    </footer>
+
+    <script src="js/comunidade.js"></script>
+</body>
+</html>

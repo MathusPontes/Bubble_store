@@ -1,0 +1,130 @@
+.corpo{
+    display: flex;
+    height: 80vw;
+}
+
+.corpo__comunidade{
+    display: flex;
+    flex-direction: column;
+    height: 80vw;
+    width: 20vw;
+    background: var(--azul-degrade);
+}
+
+.comunidade__itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--preto);
+    gap: 1em;
+}
+
+.comunidade__titulo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.comunidade__descricao{
+    padding: 0 1em;
+}
+
+.corpo__comunidade__imagem{
+    border-radius: 50%;
+}
+
+.comunidade__botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    gap: 5em;
+}
+
+.comunidade__botoes__itens{
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--laranja);
+    padding: 1em 3.5em;
+    border-radius: 10px;
+}
+
+.corpo__post{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cinza);
+    width: 80vw;
+    margin: 2em 5em;
+}
+
+.corpo__post__imagem__sobre{
+    margin: 0.25em 0;
+    font-size: 21px;
+    width: 500px;
+}
+
+.corpo__post__comentarios{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+
+.corpo__post__comentarios__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    background-color: var(--laranja);
+    border-radius: 20px;
+    margin-top: 0.25em;
+}
+
+.corpo__itens{
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo__post__comentarios__itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comentario__itens{
+    margin-top: 1em;
+    height: 50px;
+    width: 400px;
+    background-color: var(--laranja);
+    border-bottom: 2px solid white;
+}
+
+.corpo__post__pessoal{
+    display: flex;
+    gap: 1em;
+    background-color: var(--laranja);
+    padding: 0.60em;
+}
+
+.corpo__post__pessoal__comentario{
+    border: 1px solid var(--branco);
+    color: black;
+    text-align: center;
+    border-radius: 24px;
+    width: 16rem;
+}
+
+.corpo__post__pessoal form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.corpo__post__pessoal__comentario {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.enviar__botao {
+    flex: 0;
+}
